@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "tsc": "tsc -w",
-        "dev": "nodemon --inspect ./dist/index.js"
+        "dev": "nodemon --inspect --experimental-specifier-resolution=node ./dist/index.js"
     },
     "author": "",
     "license": "ISC",
