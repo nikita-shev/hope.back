@@ -3,6 +3,8 @@ import 'dotenv/config';
 
 export const app: Express = express();
 
+app.use(express.json());
+
 app.get('/', (req: Request, res: Response<{ text: string }>): void => {
     res.status(200).json({ text: 'Hello World!' });
 });
