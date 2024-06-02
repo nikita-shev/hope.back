@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { IResponse, ResponseData } from './Product.types.js';
+import { ResponseData, IRequestData, IResponse, RequestBody } from './Product.types.js';
 import Product from './Product.js';
 
 class ProductController {
@@ -10,6 +10,16 @@ class ProductController {
             res.status(200).json({ status: 0, data: result, errors: [] });
         } catch (err) {
             res.status(200).json({ status: 1, data: {}, errors: ['Product not found!'] });
+        }
+    }
+
+    async createProduct(req: RequestBody<IRequestData>, res: Response<IResponse>): Promise<void> {
+        try {
+            const result: ResponseData = await Product.createProduct(req.body);
+
+            res.status(200).json({ status: 0, data: result, errors: [] });
+        } catch (err) {
+            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
         }
     }
 }
