@@ -1,4 +1,4 @@
-import { WithId } from 'mongodb';
+import { DeleteResult, WithId } from 'mongodb';
 import { v4 as uuidV4 } from 'uuid';
 import { getCollection } from '../../db/index.js';
 import { IProduct, IRequestData, ResponseData } from './Product.types.js';
@@ -19,6 +19,12 @@ class Product {
         await collection.insertOne(product);
 
         return this.findProduct(id);
+    }
+
+    async deleteProduct(id: string): Promise<boolean> {
+        const result: DeleteResult = await collection.deleteOne({ id });
+
+        return result.deletedCount === 1;
     }
 }
 

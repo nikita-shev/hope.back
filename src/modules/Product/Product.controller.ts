@@ -22,6 +22,17 @@ class ProductController {
             res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
         }
     }
+
+    async deleteProduct(req: Request<{ id: string }>, res: Response<IResponse>): Promise<void> {
+        try {
+            const result: boolean = await Product.deleteProduct(req.params.id);
+            const errors: string[] = result ? [] : ['Product not found!'];
+
+            res.status(200).json({ status: 0, data: {}, errors });
+        } catch (err) {
+            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
+        }
+    }
 }
 
 export default new ProductController();
