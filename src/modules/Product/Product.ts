@@ -1,7 +1,7 @@
-import { DeleteResult, WithId } from 'mongodb';
+import { DeleteResult, UpdateResult, WithId } from 'mongodb';
 import { v4 as uuidV4 } from 'uuid';
 import { getCollection } from '../../db/index.js';
-import { IProduct, IRequestData, ResponseData } from './Product.types.js';
+import { IModel, IProduct, IRequestData, ResponseData } from './Product.types.js';
 
 const collection = getCollection<IProduct>();
 
@@ -25,6 +25,12 @@ class Product {
         const result: DeleteResult = await collection.deleteOne({ id });
 
         return result.deletedCount === 1;
+    }
+
+    async updateProduct(id: string, model: IModel): Promise<boolean> {
+        const result: UpdateResult<IProduct> = await collection.updateOne({ id }, { $set: model });
+
+        return result.matchedCount === 1;
     }
 }
 

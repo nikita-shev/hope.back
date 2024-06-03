@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { ResponseData, IRequestData, IResponse, RequestBody } from './Product.types.js';
+import { ResponseData, IRequestData, IResponse, RequestBody, IModel } from './Product.types.js';
 import Product from './Product.js';
 
 class ProductController {
@@ -29,6 +29,21 @@ class ProductController {
             const errors: string[] = result ? [] : ['Product not found!'];
 
             res.status(200).json({ status: 0, data: {}, errors });
+        } catch (err) {
+            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
+        }
+    }
+
+    async updateProduct(
+        req: Request<{ id: string }, {}, IModel>,
+        res: Response<IResponse>
+    ): Promise<void> {
+        try {
+            const result: boolean = await Product.updateProduct(req.params.id, req.body);
+            const status = +!result as 0 | 1;
+            const errors: string[] = result ? [] : ['Product not found!'];
+
+            res.status(200).json({ status, data: {}, errors });
         } catch (err) {
             res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
         }
