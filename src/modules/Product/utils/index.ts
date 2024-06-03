@@ -1,3 +1,4 @@
 import { createErrorObj } from './methods/createErrorObj.js';
+import { createResponseObj } from './methods/createResponseObj.js';
 
-export { createErrorObj };
+export { createErrorObj, createResponseObj };
