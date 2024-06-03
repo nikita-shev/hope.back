@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { ResponseData, IRequestData, IResponse, RequestBody, IModel } from './Product.types.js';
-import { createErrorObj } from './utils';
+import { createErrorObj, createResponseObj } from './utils';
 import Product from './Product.js';
 
 class ProductController {
@@ -8,7 +8,7 @@ class ProductController {
         try {
             const result: ResponseData = await Product.findProduct(req.params.id);
 
-            res.status(200).json({ status: 0, data: result, errors: [] });
+            res.status(200).json(createResponseObj(result));
         } catch (err) {
             res.status(200).json(createErrorObj());
         }
