@@ -18,7 +18,7 @@ class ProductController {
         try {
             const result: ResponseData = await Product.createProduct(req.body);
 
-            res.status(200).json({ status: 0, data: result, errors: [] });
+            res.status(201).json(createResponseObj(result));
         } catch (err) {
             res.status(200).json(createErrorObj());
         }
