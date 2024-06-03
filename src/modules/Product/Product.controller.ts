@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { ResponseData, IRequestData, IResponse, RequestBody, IModel } from './Product.types.js';
+import { createErrorObj } from './utils/index.js';
 import Product from './Product.js';
 
 class ProductController {
@@ -9,7 +10,7 @@ class ProductController {
 
             res.status(200).json({ status: 0, data: result, errors: [] });
         } catch (err) {
-            res.status(200).json({ status: 1, data: {}, errors: ['Product not found!'] });
+            res.status(200).json(createErrorObj());
         }
     }
 
@@ -19,7 +20,7 @@ class ProductController {
 
             res.status(200).json({ status: 0, data: result, errors: [] });
         } catch (err) {
-            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
+            res.status(200).json(createErrorObj());
         }
     }
 
@@ -30,7 +31,7 @@ class ProductController {
 
             res.status(200).json({ status: 0, data: {}, errors });
         } catch (err) {
-            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
+            res.status(200).json(createErrorObj());
         }
     }
 
@@ -45,7 +46,7 @@ class ProductController {
 
             res.status(200).json({ status, data: {}, errors });
         } catch (err) {
-            res.status(200).json({ status: 1, data: {}, errors: ['Invalid data entry!'] });
+            res.status(200).json(createErrorObj());
         }
     }
 }
