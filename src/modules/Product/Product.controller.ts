@@ -40,10 +40,8 @@ class ProductController {
     ): Promise<void> {
         try {
             const result: boolean = await Product.updateProduct(req.params.id, req.body);
-            const status = +!result as 0 | 1;
-            const errors: string[] = result ? [] : ['Product not found!'];
 
-            res.status(200).json({ status, data: {}, errors });
+            res.status(200).json(createResponseObj(result));
         } catch (err) {
             res.status(200).json(createErrorObj());
         }
