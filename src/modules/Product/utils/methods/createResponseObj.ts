@@ -2,7 +2,7 @@ import { IResponse, ResponseData, ResponseStatuses } from '../../Product.types.j
 
 export const createResponseObj = (
     value: ResponseData | boolean,
-    error: string = 'Product not found!'
+    error: string = 'Product not found.'
 ): IResponse => {
     const status: ResponseStatuses =
         Object.keys(value).length || (typeof value === 'boolean' && value)
