@@ -1,7 +1,9 @@
 import { DeleteResult, UpdateResult, WithId } from 'mongodb';
 import { v4 as uuidV4 } from 'uuid';
 import { getCollection } from '../../db/index.js';
-import { IModel, IProduct, ResponseData } from './Product.types.js';
+import { IImages, IModel, IProduct, ResponseData } from './Product.types.js';
+import { Files } from '../FileStorage/FileStorage.types.js';
+import { createImagesObj } from './utils';
 
 const collection = getCollection<IProduct>();
 
@@ -12,9 +14,10 @@ class Product {
         return product ? product : {};
     }
 
-    async createProduct(data: IModel): Promise<ResponseData> {
+    async createProduct(model: IModel, files: Files): Promise<ResponseData> {
         const id: string = uuidV4();
-        const product: IProduct = { ...data, id, images: { preview: '' } };
+        const imagesObj: IImages = createImagesObj(files);
+        const product: IProduct = { ...model, id, images: imagesObj };
 
         await collection.insertOne(product);
 

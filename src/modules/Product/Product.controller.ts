@@ -16,7 +16,7 @@ class ProductController {
 
     async createProduct(req: RequestBody<IModel>, res: Response<IResponse>): Promise<void> {
         try {
-            const result: ResponseData = await Product.createProduct(req.body);
+            const result: ResponseData = await Product.createProduct(req.body, req.files);
 
             res.status(201).json(createResponseObj(result));
         } catch (err) {
