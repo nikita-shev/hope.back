@@ -1,11 +1,11 @@
 import { NextFunction, Response } from 'express';
-import { IRequestData, IResponse, RequestBody } from '../Product.types.js';
+import { IModel, IResponse, RequestBody } from '../Product.types.js';
 import { keys, ProductKeys } from '../data';
 import { createResponseObj } from '../utils/index.js';
 
 class ProductMiddleware {
     checkEmptyBody(
-        req: RequestBody<IRequestData>,
+        req: RequestBody<IModel>,
         res: Response<IResponse>,
         next: NextFunction
     ): void {
@@ -17,11 +17,11 @@ class ProductMiddleware {
     }
 
     checkBodyKeys(
-        req: RequestBody<IRequestData>,
+        req: RequestBody<IModel>,
         res: Response<IResponse>,
         next: NextFunction
     ): void {
-        const product: IRequestData = req.body;
+        const product: IModel = req.body;
         const result: boolean = Object.keys(product).every((el) =>
             keys.includes(el as ProductKeys)
         );

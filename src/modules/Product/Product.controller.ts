@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { ResponseData, IRequestData, IResponse, RequestBody, IModel } from './Product.types.js';
+import { ResponseData, IResponse, RequestBody, IModel } from './Product.types.js';
 import { createErrorObj, createResponseObj } from './utils';
 import Product from './Product.js';
 
@@ -14,7 +14,7 @@ class ProductController {
         }
     }
 
-    async createProduct(req: RequestBody<IRequestData>, res: Response<IResponse>): Promise<void> {
+    async createProduct(req: RequestBody<IModel>, res: Response<IResponse>): Promise<void> {
         try {
             const result: ResponseData = await Product.createProduct(req.body);
 

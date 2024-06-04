@@ -46,10 +46,6 @@ export interface IProduct extends IModel {
 }
 
 // Request
-export interface IRequestData extends IModel {
-    images: []; // -
-}
-
 export type RequestBody<T> = Request<{}, {}, T>;
 
 // Response

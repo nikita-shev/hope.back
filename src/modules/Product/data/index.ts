@@ -1,6 +1,6 @@
-import { IRequestData } from '../Product.types.js';
+import { IModel } from '../Product.types.js';
 
-export type ProductKeys = keyof IRequestData;
+export type ProductKeys = keyof IModel;
 
 export const keys: ProductKeys[] = [
     'name',
@@ -15,6 +15,5 @@ export const keys: ProductKeys[] = [
     'status',
     'colors',
     'sizes',
-    'options',
-    'images'
+    'options'
 ];
