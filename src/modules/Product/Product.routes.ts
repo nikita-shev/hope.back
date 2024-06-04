@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import ProductMiddleware from './middleware/Product.middleware.js';
+import FileStorage from '../FileStorage/FileStorage.js';
 import ProductController from './Product.controller.js';
 
 const router: Router = Router();
@@ -10,6 +11,7 @@ router
         '/',
         ProductMiddleware.checkEmptyBody,
         ProductMiddleware.checkBodyKeys,
+        FileStorage.configure('images'),
         ProductController.createProduct
     )
     .delete('/:id', ProductController.deleteProduct)
