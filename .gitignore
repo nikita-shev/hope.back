@@ -27,4 +27,6 @@ dist-ssr
 *storybook.log
 
 .env
-public
+public/uploads/*
+!public/uploads/default/
+!public/uploads/default/**
