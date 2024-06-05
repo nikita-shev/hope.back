@@ -1,3 +1,4 @@
+import path from 'node:path';
 import { IImages } from '../../Product.types.js';
 import { Files } from '../../../FileStorage/FileStorage.types.js';
 import { fileStorageSettings } from '../../../FileStorage/FileStorage.settings.js';
@@ -9,7 +10,9 @@ const defaultImgPath: string = `${HOST}/${baseDir}/default/defaultImage.webp`;
 export const createImagesObj = (files: Files): IImages => {
     if (!files || !Array.isArray(files)) return { preview: '' };
 
-    const images: string[] = files.map((el) => `${HOST}\\${el.path}`);
+    const images: string[] = files.map(
+        (el) => `${HOST}/${path.posix.join(...el.path.split(path.sep))}`
+    );
 
     return {
         preview: images[0] || defaultImgPath,
