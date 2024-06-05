@@ -10,7 +10,7 @@ class FileStorage {
 
     private createDir(): void {
         if (!fs.existsSync(this.dir)) {
-            fs.mkdirSync(this.dir);
+            fs.mkdirSync(this.dir, { recursive: true });
         }
     }
 
