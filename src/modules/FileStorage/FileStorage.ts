@@ -1,9 +1,12 @@
 import fs from 'node:fs';
 import multer from 'multer';
 import { v4 as uuidV4 } from 'uuid';
+import { fileStorageSettings } from './FileStorage.settings.js';
+
+const { baseDir } = fileStorageSettings;
 
 class FileStorage {
-    dir: string = 'public/uploads';
+    dir: string = baseDir;
 
     private createDir(): void {
         if (!fs.existsSync(this.dir)) {
