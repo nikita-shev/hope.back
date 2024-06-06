@@ -1,7 +1,8 @@
-import { DeleteResult, UpdateResult, WithId } from 'mongodb';
+import { DeleteResult, UpdateResult } from 'mongodb';
 import { v4 as uuidV4 } from 'uuid';
 import { getCollection } from '../../db/index.js';
-import { IImages, IModel, IProduct, ResponseData } from './Product.types.js';
+import { DBModel, IImages, IModel, IProduct } from '../../types/Product.js';
+import { ResponseData } from './Product.types.js';
 import { Files } from '../FileStorage/FileStorage.types.js';
 import { createImagesObj } from './utils';
 
@@ -9,7 +10,7 @@ const collection = getCollection<IProduct>();
 
 class Product {
     async findProduct(id: string): Promise<ResponseData> {
-        const product: WithId<IProduct> | null = await collection.findOne({ id });
+        const product: DBModel | null = await collection.findOne({ id });
 
         return product ? product : {};
     }

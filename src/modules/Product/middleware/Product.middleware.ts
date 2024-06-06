@@ -1,7 +1,9 @@
 import { NextFunction, Response } from 'express';
-import { IModel, IResponse, RequestBody } from '../Product.types.js';
+import { RequestBody } from '../../../types/Request.js';
+import { IResponse } from '../../../types/Response.js';
+import { IModel } from '../../../types/Product.js';
 import { keys, ProductKeys } from '../data';
-import { createResponseObj } from '../utils/index.js';
+import { createResponseObj } from '../../../utils/methods/index.js';
 
 class ProductMiddleware {
     checkEmptyBody(

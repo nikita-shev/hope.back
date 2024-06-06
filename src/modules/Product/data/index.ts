@@ -1,4 +1,4 @@
-import { IModel } from '../Product.types.js';
+import { IModel } from '../../../types/Product.js';
 
 export type ProductKeys = keyof IModel;
 
