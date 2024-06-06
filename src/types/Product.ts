@@ -1,3 +1,5 @@
+import { WithId } from 'mongodb';
+
 type Statuses = 'sale' | 'new' | null;
 type Sizes = '3XL' | '4XL' | '5XL' | 'L' | 'M' | 'S' | 'XL' | 'XS' | 'XXL';
 
@@ -41,3 +43,5 @@ export interface IProduct extends IModel {
     id: string;
     images: IImages;
 }
+
+export type DBModel = WithId<IProduct>;
