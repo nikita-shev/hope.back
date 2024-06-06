@@ -1,7 +1,8 @@
 import { DeleteResult, UpdateResult, WithId } from 'mongodb';
 import { v4 as uuidV4 } from 'uuid';
 import { getCollection } from '../../db/index.js';
-import { IImages, IModel, IProduct, ResponseData } from './Product.types.js';
+import { IImages, IModel, IProduct } from '../../types/Product.js';
+import { ResponseData } from './Product.types.js';
 import { Files } from '../FileStorage/FileStorage.types.js';
 import { createImagesObj } from './utils';
 

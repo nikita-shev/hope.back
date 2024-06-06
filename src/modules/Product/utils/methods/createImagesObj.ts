@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { IImages } from '../../Product.types.js';
+import { IImages } from '../../../../types/Product.js';
 import { Files } from '../../../FileStorage/FileStorage.types.js';
 import { fileStorageSettings } from '../../../FileStorage/FileStorage.settings.js';
 

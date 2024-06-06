@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
-import { ResponseData, IResponse, RequestBody, IModel } from './Product.types.js';
+import { IModel } from '../../types/Product.js';
+import { ResponseData, IResponse, RequestBody } from './Product.types.js';
 import { createResponseObj } from './utils';
 import { createErrorObj } from '../../utils/methods';
 import Product from './Product.js';
