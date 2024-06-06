@@ -1,9 +1,10 @@
-import { IResponse, ResponseData, ResponseStatuses } from '../../Product.types.js';
+import { IResponse, ResponseStatuses } from '../../../../types/Response.js';
+import { ResponseData } from '../../Product.types.js';
 
 export const createResponseObj = (
     value: ResponseData | boolean,
     error: string = 'Product not found.'
-): IResponse => {
+): IResponse<ResponseData> => {
     const status: ResponseStatuses =
         Object.keys(value).length || (typeof value === 'boolean' && value)
             ? ResponseStatuses.OK

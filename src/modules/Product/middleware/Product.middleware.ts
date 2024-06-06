@@ -1,6 +1,7 @@
 import { NextFunction, Response } from 'express';
+import { IResponse } from '../../../types/Response.js';
 import { IModel } from '../../../types/Product.js';
-import { IResponse, RequestBody } from '../Product.types.js';
+import { RequestBody } from '../Product.types.js';
 import { keys, ProductKeys } from '../data';
 import { createResponseObj } from '../utils/index.js';
 

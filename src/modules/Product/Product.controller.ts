@@ -1,12 +1,16 @@
 import { Request, Response } from 'express';
+import { IResponse } from '../../types/Response.js';
 import { IModel } from '../../types/Product.js';
-import { ResponseData, IResponse, RequestBody } from './Product.types.js';
+import { ResponseData, RequestBody } from './Product.types.js';
 import { createResponseObj } from './utils';
 import { createErrorObj } from '../../utils/methods';
 import Product from './Product.js';
 
 class ProductController {
-    async getProduct(req: Request<{ id: string }>, res: Response<IResponse>): Promise<void> {
+    async getProduct(
+        req: Request<{ id: string }>,
+        res: Response<IResponse<ResponseData>>
+    ): Promise<void> {
         try {
             const result: ResponseData = await Product.findProduct(req.params.id);
 
@@ -16,7 +20,10 @@ class ProductController {
         }
     }
 
-    async createProduct(req: RequestBody<IModel>, res: Response<IResponse>): Promise<void> {
+    async createProduct(
+        req: RequestBody<IModel>,
+        res: Response<IResponse<ResponseData>>
+    ): Promise<void> {
         try {
             const result: ResponseData = await Product.createProduct(req.body, req.files);
 
