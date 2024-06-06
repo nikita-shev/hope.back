@@ -1,4 +1,4 @@
-import { IResponse, ResponseStatuses } from '../../../../types/Response.js';
+import { IResponse, ResponseStatuses } from '../../types/Response.js';
 
 const isArray = (value: any): boolean => Array.isArray(value);
 const isNotEmptyObj = (value: any): boolean => Boolean(Object.keys(value).length);

@@ -2,8 +2,7 @@ import { Request, Response } from 'express';
 import { IResponse } from '../../types/Response.js';
 import { IModel } from '../../types/Product.js';
 import { ResponseData, RequestBody } from './Product.types.js';
-import { createResponseObj } from './utils';
-import { createErrorObj } from '../../utils/methods';
+import { createErrorObj, createResponseObj } from '../../utils/methods';
 import Product from './Product.js';
 
 class ProductController {
