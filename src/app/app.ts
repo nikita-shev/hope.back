@@ -4,6 +4,7 @@ import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 import 'dotenv/config';
 import product from '../modules/Product/Product.routes.js';
+import products from '../modules/Products/Products.routes.js';
 
 export const app: Express = express();
 const __filename: string = fileURLToPath(import.meta.url);
@@ -14,6 +15,7 @@ app.use(cors({ origin: 'http://localhost:5173', optionsSuccessStatus: 200 }));
 app.use('/public', express.static(path.join(path.parse(__dirname).dir, '..', 'public'))); // -
 
 app.use('/api/product', product);
+app.use('/api/products', products);
 
 app.get('/', (req: Request, res: Response<{ text: string }>): void => {
     res.status(200).json({ text: 'Hello World!' });
