@@ -1,6 +1,6 @@
 import { WithId } from 'mongodb';
 
-type Statuses = 'sale' | 'new' | null;
+type Statuses = 'sale' | 'new' | 'all';
 type Sizes = '3XL' | '4XL' | '5XL' | 'L' | 'M' | 'S' | 'XL' | 'XS' | 'XXL';
 
 interface IColor {
@@ -28,7 +28,7 @@ export interface IModel {
     description: string;
     category: string;
     brand: string;
-    vendorCode: string;
+    vendorCode: number;
     price: IPrice;
     isInStock: boolean;
     quantity: number;
