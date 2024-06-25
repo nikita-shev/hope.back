@@ -8,8 +8,7 @@ import { createErrorObj, createResponseObj } from '../../utils/methods';
 class ProductsController {
     async getProducts(req: RequestQuery<IQuery>, res: Response<IResponse>): Promise<void> {
         try {
-            const { page, limit } = req.query;
-            const products: DBModel[] = await Products.findProducts(page, limit);
+            const products: DBModel[] = await Products.findProducts(req.query);
 
             res.status(200).json(
                 createResponseObj(!!products.length && products, 'Products not found.')
