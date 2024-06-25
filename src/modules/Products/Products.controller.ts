@@ -6,7 +6,7 @@ import Products from './Products';
 import { createErrorObj, createResponseObj } from '../../utils/methods';
 
 class ProductsController {
-    async getProducts(req: RequestQuery<IQuery<number>>, res: Response<IResponse>): Promise<void> {
+    async getProducts(req: RequestQuery<IQuery>, res: Response<IResponse>): Promise<void> {
         try {
             const { page, limit } = req.query;
             const products: DBModel[] = await Products.findProducts(page, limit);
