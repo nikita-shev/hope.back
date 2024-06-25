@@ -1,0 +1,1422 @@
+[
+    {
+        "name": "Футболка | Befree",
+        "description": "Футболка Befree.",
+        "category": "Футболки",
+        "brand": "Befree",
+        "vendorCode": 32900,
+        "price": {
+            "current": 799,
+            "new": 599
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 2,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Розовый",
+                "value": "#FFC0CB"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Куртка джинсовая | Befree",
+        "description": "Джинсовая куртка выполнена из плотного хлопка. Детали: классический фасон, застежка на пуговицах-болтах, 2 кармана с клапанами и 2 боковых кармана без застежек, без подкладки.",
+        "category": "Куртки",
+        "brand": "Befree",
+        "vendorCode": 32901,
+        "price": {
+            "current": 2799,
+            "new": 2599
+        },
+        "isInStock": true,
+        "quantity": 6,
+        "rating": 3,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            }
+        ],
+        "sizes": ["M", "L"],
+        "options": []
+    },
+    {
+        "name": "Плащ | Befree",
+        "description": "Плащ-тренч выполнен из полухлопкового текстиля. Модель с шелковистой подкладкой. Особенности: прямой крой, в комплекте ремень с металлической пряжкой, двубортная застежка на кнопках.",
+        "category": "Плащи",
+        "brand": "Befree",
+        "vendorCode": 32902,
+        "price": {
+            "current": 5799,
+            "new": 4999
+        },
+        "isInStock": true,
+        "quantity": 2,
+        "rating": 3,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Брюки спортивные | Befree",
+        "description": "Брюки спортивные Befree.",
+        "category": "Брюки",
+        "brand": "Befree",
+        "vendorCode": 32903,
+        "price": {
+            "current": 2799,
+            "new": 1999
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 4,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Фиолетовый",
+                "value": "#8B00FF"
+            },
+            {
+                "name": "Желтый",
+                "value": "#FFFF00"
+            }
+        ],
+        "sizes": ["XS", "S", "L"],
+        "options": []
+    },
+    {
+        "name": "Куртка утепленная | Befree",
+        "description": "Куртка выполнена из стеганого текстиля со слоем искусственного утеплителя. Модель свободного кроя. Детали: фиксированный регулируемый капюшон, застежка на молнию, 2 боковых кармана.",
+        "category": "Куртки",
+        "brand": "Befree",
+        "vendorCode": 32904,
+        "price": {
+            "current": 5799,
+            "new": 4599
+        },
+        "isInStock": true,
+        "quantity": 10,
+        "rating": 5,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Коричневый",
+                "value": "#964B00"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Шорты спортивные | Befree",
+        "description": "Шорты спортивные Befree.",
+        "category": "Шорты",
+        "brand": "Befree",
+        "vendorCode": 32905,
+        "price": {
+            "current": 2799,
+            "new": 1799
+        },
+        "isInStock": true,
+        "quantity": 3,
+        "rating": 3,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Желтый",
+                "value": "#FFFF00"
+            }
+        ],
+        "sizes": ["XS", "S"],
+        "options": []
+    },
+    {
+        "name": "Платье | Lime",
+        "description": "Платье Lime.",
+        "category": "Платье",
+        "brand": "Lime",
+        "vendorCode": 32906,
+        "price": {
+            "current": 3899,
+            "new": 3599
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS", "S", "L"],
+        "options": []
+    },
+    {
+        "name": "Рубашка джинсовая | Lime",
+        "description": "Рубашка джинсовая Lime.",
+        "category": "Рубашки",
+        "brand": "Lime",
+        "vendorCode": 32907,
+        "price": {
+            "current": 5599,
+            "new": 4999
+        },
+        "isInStock": true,
+        "quantity": 4,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["S", "M"],
+        "options": []
+    },
+    {
+        "name": "Рубашка | Lime",
+        "description": "Рубашка Lime.",
+        "category": "Рубашки",
+        "brand": "Lime",
+        "vendorCode": 32908,
+        "price": {
+            "current": 2799,
+            "new": 2599
+        },
+        "isInStock": true,
+        "quantity": 13,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Мультиколор",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Куртка утепленная | Lime",
+        "description": "Куртка утепленная Lime.",
+        "category": "Куртки",
+        "brand": "Lime",
+        "vendorCode": 32909,
+        "price": {
+            "current": 6799,
+            "new": 5999
+        },
+        "isInStock": true,
+        "quantity": 5,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Футболка | Tom Tailor",
+        "description": "Трикотажная футболка с лого-принтом на груди.",
+        "category": "Футболки",
+        "brand": "Tom Tailor",
+        "vendorCode": 32910,
+        "price": {
+            "current": 1399,
+            "new": 1299
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 2,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            },
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            },
+            {
+                "name": "Графит",
+                "value": "#49423D"
+            },
+            {
+                "name": "Оранжевый",
+                "value": "#FFA500"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Шорты до купания | ТВОЕ",
+        "description": "Стильные повседневные шорты, универсальный элемент любого гардероба. Изготовлены из мягкой, тактильно-приятной ткани.",
+        "category": "Шорты",
+        "brand": "ТВОЕ",
+        "vendorCode": 32911,
+        "price": {
+            "current": 999,
+            "new": 899
+        },
+        "isInStock": true,
+        "quantity": 7,
+        "rating": 2,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Зеленый",
+                "value": "#008000"
+            },
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            },
+            {
+                "name": "Темно-красный",
+                "value": "#8B0000"
+            },
+            {
+                "name": "Мятный",
+                "value": "#3EB489"
+            },
+            {
+                "name": "Бордовый",
+                "value": "#9B2D30"
+            }
+        ],
+        "sizes": ["S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Футболка мужская | US cotton",
+        "description": "Мужская футболка из 100% натурального хлопка, прямого кроя с коротким рукавом и круглым воротом. Это самый оптимальный и многофункциональный вариант. За счет свободного кроя не сковывает движений и прекрасно подходит как для повседневного гардероба, так и для занятий спортом.",
+        "category": "Футболки",
+        "brand": "US cotton",
+        "vendorCode": 32912,
+        "price": {
+            "current": 799
+        },
+        "isInStock": true,
+        "quantity": 16,
+        "rating": 1,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Зеленый",
+                "value": "#008000"
+            },
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            },
+            {
+                "name": "Оранжевый",
+                "value": "#FFA500"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL", "3XL"],
+        "options": []
+    },
+    {
+        "name": "Брюки | Bronks",
+        "description": "Брюки пошиты из премиального хлопка. Пояс на эластичной резинке, которая хорошо тянется и делает модель очень удобной. Тканевый ремень идет в комплекте, 2 косых кармана для рук, 2 боковых кармана на кнопке на ногах. Манжеты брюк также на эластичной резинке. Металлические молнии на манжетах регулируют зауженность модели в районе голени Данная модель отлично подойдет и под стиль Кэжуал(офис, универститет, школа, ежедневный стиль), так и под спортивный стиль с кроссовками.",
+        "category": "Брюки",
+        "brand": "Bronks",
+        "vendorCode": 32913,
+        "price": {
+            "current": 6799
+        },
+        "isInStock": true,
+        "quantity": 10,
+        "rating": 2,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Серый",
+                "value": "#808080"
+            },
+            {
+                "name": "Зеленый",
+                "value": "#008000"
+            },
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS", "S"],
+        "options": []
+    },
+    {
+        "name": "Брюки мужские | Turon",
+        "description": "Спортивные брюки мужские с лампасами выполнены из прочного, эластичного трикотажа с добавлением полиэстера. Комфортная, приятная к телу ткань. Штаны после стирки не садятся. Спереди два кармана, сзади - один накладной карман, по бокам лампасы. Эластичный пояс со шнурком позволяет дополнительно регулировать объем. Отлично подходят для повседневной носки, спорта и отдыха.",
+        "category": "Брюки",
+        "brand": "Turon",
+        "vendorCode": 32914,
+        "price": {
+            "current": 3499,
+            "new": 3140
+        },
+        "isInStock": true,
+        "quantity": 3,
+        "rating": 2,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Серый",
+                "value": "#808080"
+            },
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            },
+            {
+                "name": "Темно-синий",
+                "value": "#002137"
+            },
+            {
+                "name": "Серый, камуфляж",
+                "value": "#808080"
+            },
+            {
+                "name": "Черный, красный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Брюки карго | Bronks",
+        "description": "Средне зауженные к низу джоггеры из прочного и износостойкого материала Rip Stop плотностью 210 г/м2, с возможностью утяжки на икрах, верх изделия с пуговицей и ширинкой, сзади на поясе вшита резинка для более комфортной эксплуатации.",
+        "category": "Брюки",
+        "brand": "Bronks",
+        "vendorCode": 32915,
+        "price": {
+            "current": 5799,
+            "new": 4899
+        },
+        "isInStock": true,
+        "quantity": 2,
+        "rating": 3,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Песочный",
+                "value": "#FCDD76"
+            },
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            },
+            {
+                "name": "Темно-синий",
+                "value": "#002137"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Футболка-поло | Odji",
+        "description": "Футболка-поло Odji.",
+        "category": "Футболки",
+        "brand": "Odji",
+        "vendorCode": 32916,
+        "price": {
+            "current": 1299
+        },
+        "isInStock": true,
+        "quantity": 7,
+        "rating": 4,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Светло-розовый",
+                "value": "#FFB6C1"
+            },
+            {
+                "name": "Темно-розовый",
+                "value": "#E75480"
+            },
+            {
+                "name": "Лавандовый",
+                "value": "#E6E6FA"
+            },
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            },
+            {
+                "name": "Зеленый",
+                "value": "#008000"
+            }
+        ],
+        "sizes": ["XS", "S", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Брюки / Odji",
+        "description": "Изделие маломерит.",
+        "category": "Брюки",
+        "brand": "Odji",
+        "vendorCode": 32917,
+        "price": {
+            "current": 2799,
+            "new": 1999
+        },
+        "isInStock": true,
+        "quantity": 1,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            },
+            {
+                "name": "Серый",
+                "value": "#808080"
+            },
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Шорты | ТВОЕ",
+        "description": "Шорты ТВОЕ.",
+        "category": "Шорты",
+        "brand": "ТВОЕ",
+        "vendorCode": 32918,
+        "price": {
+            "current": 1799,
+            "new": 1499
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            },
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Темно-синий",
+                "value": "#002137"
+            },
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Темно-серый",
+                "value": "#49423D"
+            }
+        ],
+        "sizes": ["S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Футболка с логотипом | Max Extreme",
+        "description": "Футболка с логотипом Макс Экстрим. Полотно для всех наших футболок мы используем только хлопок с лайкрой. Печать дизайна вытравными красками, что позволяет футболке полностью \"дышать\", а при желании вы можете погладить футболку \"с логотипом\" прямо по дизайну.",
+        "category": "Футболки",
+        "brand": "Max Extreme",
+        "vendorCode": 32919,
+        "price": {
+            "current": 1799,
+            "new": 1700
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Бордовый",
+                "value": "#9B2D30"
+            },
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            },
+            {
+                "name": "Желтый",
+                "value": "#FFFF00"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Темно-серый",
+                "value": "#49423D"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL"],
+        "options": []
+    },
+    {
+        "name": "Футболка \"Заяц Король\"",
+        "description": "Футболка \"Заяц Король\".",
+        "category": "Футболки",
+        "brand": "Max Extreme",
+        "vendorCode": 32920,
+        "price": {
+            "current": 1799,
+            "new": 1700
+        },
+        "isInStock": true,
+        "quantity": 1,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL", "3XL", "4XL", "5XL"],
+        "options": []
+    },
+    {
+        "name": "Шорты | Best MultiBrand",
+        "description": "Незаменимый элемент летнего гардероба. Ткань дышит, так как 3/4 состава хлопок. Очень удобные и отлично садятся на фигуру. Универсальны для любого силуэта мужчины. Рекомендуем сочетать с футболками и поло!",
+        "category": "Шорты",
+        "brand": "Best MultiBrand",
+        "vendorCode": 32921,
+        "price": {
+            "current": 1799,
+            "new": 1399
+        },
+        "isInStock": true,
+        "quantity": 15,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-серый",
+                "value": "#BBBBBB"
+            },
+            {
+                "name": "Темно-серый",
+                "value": "#49423D"
+            }
+        ],
+        "sizes": ["M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Толстовка на молнии | Bronks",
+        "description": "Толстовка на молнии Bronks.",
+        "category": "Толстовки",
+        "brand": "Bronks",
+        "vendorCode": 32922,
+        "price": {
+            "current": 1999,
+            "new": 1799
+        },
+        "isInStock": true,
+        "quantity": 8,
+        "rating": 1,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-серый",
+                "value": "#BBBBBB"
+            },
+            {
+                "name": "Темно-серый",
+                "value": "#49423D"
+            },
+            {
+                "name": "Темно-алый",
+                "value": "#CB2821"
+            },
+            {
+                "name": "Черно-синий",
+                "value": "#18171C"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Толстовка из френч-терри с начёсом",
+        "description": "Толстовка из френч-терри с начёсом Turon.",
+        "category": "Толстовки",
+        "brand": "Turon",
+        "vendorCode": 32923,
+        "price": {
+            "current": 2099,
+            "new": 1899
+        },
+        "isInStock": true,
+        "quantity": 2,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Графитовый",
+                "value": "#474A51"
+            },
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Однотонные шорты | Chino",
+        "description": "Однотонные шорты Chino с завязками.",
+        "category": "Шорты",
+        "brand": "Chino",
+        "vendorCode": 32924,
+        "price": {
+            "current": 1799,
+            "new": 1599
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-оливковый",
+                "value": "#846A20"
+            },
+            {
+                "name": "Черно-синий",
+                "value": "#18171C"
+            },
+            {
+                "name": "Изумрудный",
+                "value": "#50C878"
+            }
+        ],
+        "sizes": ["XS", "S"],
+        "options": []
+    },
+    {
+        "name": "Шорты | Chino",
+        "description": "Шорты на кулиске из хлопка и льна | Chino.",
+        "category": "Шорты",
+        "brand": "Chino",
+        "vendorCode": 32925,
+        "price": {
+            "current": 1999,
+            "new": 1799
+        },
+        "isInStock": true,
+        "quantity": 9,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            },
+            {
+                "name": "Светло-бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            }
+        ],
+        "sizes": ["XS", "S"],
+        "options": []
+    },
+    {
+        "name": "Шорты | Chino",
+        "description": "Шорты из хлопка Chino.",
+        "category": "Шорты",
+        "brand": "Chino",
+        "vendorCode": 32926,
+        "price": {
+            "current": 1799,
+            "new": 1299
+        },
+        "isInStock": true,
+        "quantity": 11,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Индиго",
+                "value": "#4B0082"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Прямые джинсы | US cotton",
+        "description": "Прямые джинсы из мягкого денима US cotton.",
+        "category": "Джинсы",
+        "brand": "US cotton",
+        "vendorCode": 32927,
+        "price": {
+            "current": 3799,
+            "new": 3299
+        },
+        "isInStock": true,
+        "quantity": 4,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-синий",
+                "value": "#A6CAF0"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Джинсы-джоггеры | Turon",
+        "description": "Джинсы-джоггеры на резинке с регулируемым шнурком и эластичными манжетами.",
+        "category": "Джинсы",
+        "brand": "Turon",
+        "vendorCode": 32928,
+        "price": {
+            "current": 3799
+        },
+        "isInStock": true,
+        "quantity": 18,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Серый",
+                "value": "#808080"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Джинсы-джоггеры | Bronks",
+        "description": "Джинсы-джоггеры на резинке с регулируемым шнурком и эластичными манжетами.",
+        "category": "Джинсы",
+        "brand": "Bronks",
+        "vendorCode": 32929,
+        "price": {
+            "current": 3799
+        },
+        "isInStock": true,
+        "quantity": 10,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Хаки",
+                "value": "#806B2A"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Прямые джинсы | Turon",
+        "description": "Прямые джинсы Turon.",
+        "category": "Джинсы",
+        "brand": "Turon",
+        "vendorCode": 32930,
+        "price": {
+            "current": 3799,
+            "new": 2999
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Прямые джинсы | Odji",
+        "description": "Прямые джинсы Odji.",
+        "category": "Джинсы",
+        "brand": "Odji",
+        "vendorCode": 32931,
+        "price": {
+            "current": 2799,
+            "new": 2299
+        },
+        "isInStock": true,
+        "quantity": 2,
+        "rating": 2,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            },
+            {
+                "name": "Светло-синий",
+                "value": "#A6CAF0"
+            }
+        ],
+        "sizes": ["XS", "S", "M"],
+        "options": []
+    },
+    {
+        "name": "Футболка с принтом | US cotton",
+        "description": "Футболка с принтом US cotton.",
+        "category": "Футболки",
+        "brand": "US cotton",
+        "vendorCode": 32932,
+        "price": {
+            "current": 1799,
+            "new": 899
+        },
+        "isInStock": true,
+        "quantity": 5,
+        "rating": 1,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Светло-бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Футболка | Bronks",
+        "description": "Футболка с морским принтом Bronks.",
+        "category": "Футболки",
+        "brand": "Bronks",
+        "vendorCode": 32933,
+        "price": {
+            "current": 999,
+            "new": 799
+        },
+        "isInStock": true,
+        "quantity": 8,
+        "rating": 2,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-зелёный",
+                "value": "#90EE90"
+            },
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Ветровка | Befree",
+        "description": "Ветровка Befree.",
+        "category": "Ветровки",
+        "brand": "Befree",
+        "vendorCode": 32934,
+        "price": {
+            "current": 4799,
+            "new": 3799
+        },
+        "isInStock": true,
+        "quantity": 5,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Черный",
+                "value": "#000000"
+            },
+            {
+                "name": "Светло-оливковый",
+                "value": "#846A20"
+            },
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Футболка | Bronks",
+        "description": "Футболка с принтом на кармане Bronks.",
+        "category": "Футболки",
+        "brand": "Bronks",
+        "vendorCode": 32935,
+        "price": {
+            "current": 799,
+            "new": 699
+        },
+        "isInStock": true,
+        "quantity": 3,
+        "rating": 5,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            },
+            {
+                "name": "Красный",
+                "value": "#FF0000"
+            },
+            {
+                "name": "Светло-зелёный",
+                "value": "#90EE90"
+            },
+            {
+                "name": "Темно-синий",
+                "value": "#002137"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Куртка | Turon",
+        "description": "Куртка из хлопка в стиле сафари | Turon.",
+        "category": "Куртки",
+        "brand": "Turon",
+        "vendorCode": 32936,
+        "price": {
+            "current": 6799,
+            "new": 4999
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-оливковый",
+                "value": "#846A20"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Куртка | Lime",
+        "description": "Куртка с цветовыми блоками и капюшоном | Lime.",
+        "category": "Куртки",
+        "brand": "Lime",
+        "vendorCode": 32937,
+        "price": {
+            "current": 3799,
+            "new": 3499
+        },
+        "isInStock": true,
+        "quantity": 4,
+        "rating": 2,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Белый",
+                "value": "#FFFFFF"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Утеплённое пальто | ТВОЕ",
+        "description": "Утеплённое пальто с воротником-стойкой | ТВОЕ.",
+        "category": "Пальто",
+        "brand": "ТВОЕ",
+        "vendorCode": 32938,
+        "price": {
+            "current": 11799,
+            "new": 9999
+        },
+        "isInStock": true,
+        "quantity": 11,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Черно-синий",
+                "value": "#18171C"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Стёганая куртка | Lime",
+        "description": "Стёганая куртка с воротником-стойкой | Lime.",
+        "category": "Куртки",
+        "brand": "Lime",
+        "vendorCode": 32939,
+        "price": {
+            "current": 5799,
+            "new": 4999
+        },
+        "isInStock": true,
+        "quantity": 8,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Темно-синий",
+                "value": "#002137"
+            }
+        ],
+        "sizes": ["M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Утеплённая стёганая куртка | Bronks",
+        "description": "Утеплённая стёганая куртка с капюшоном | Bronks.",
+        "category": "Куртки",
+        "brand": "Bronks",
+        "vendorCode": 32940,
+        "price": {
+            "current": 7799,
+            "new": 6999
+        },
+        "isInStock": true,
+        "quantity": 1,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Черно-синий",
+                "value": "#18171C"
+            }
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "options": []
+    },
+    {
+        "name": "Классический жакет | Bronks",
+        "description": "Классический жакет из поливискозной ткани | Bronks.",
+        "category": "Жакеты",
+        "brand": "Bronks",
+        "vendorCode": 32941,
+        "price": {
+            "current": 3799,
+            "new": 2299
+        },
+        "isInStock": true,
+        "quantity": 13,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Серый",
+                "value": "#808080"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Худи с молнией | Odji",
+        "description": "Толстовка-худи на молнии выполнена из мягкого трикотажа | Odji.",
+        "category": "Худи",
+        "brand": "Odji",
+        "vendorCode": 32942,
+        "price": {
+            "current": 2799,
+            "new": 1999
+        },
+        "isInStock": true,
+        "quantity": 3,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Жемчужно-серый",
+                "value": "#EAE6CA"
+            },
+            {
+                "name": "Черный",
+                "value": "#000000"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Джинсовая косуха | Chino",
+        "description": "Джинсовая косуха с карманами | Chino.",
+        "category": "Косуха",
+        "brand": "Chino",
+        "vendorCode": 32943,
+        "price": {
+            "current": 3799,
+            "new": 3499
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 3,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-голубой",
+                "value": "#87CEFA"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Жакет | Chino",
+        "description": "Жакет с накладными карманами и поясом | Chino.",
+        "category": "Жакеты",
+        "brand": "Chino",
+        "vendorCode": 32944,
+        "price": {
+            "current": 3799,
+            "new": 2999
+        },
+        "isInStock": true,
+        "quantity": 7,
+        "rating": 1,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Светло-синий",
+                "value": "#A6CAF0"
+            }
+        ],
+        "sizes": ["S", "M", "L"],
+        "options": []
+    },
+    {
+        "name": "Джинсы | Chino",
+        "description": "Джинсы Chino.",
+        "category": "Джинсы",
+        "brand": "Chino",
+        "vendorCode": 32945,
+        "price": {
+            "current": 2799,
+            "new": 2499
+        },
+        "isInStock": false,
+        "quantity": 0,
+        "rating": 2,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Светло-бежевый",
+                "value": "#F5F5DC"
+            }
+        ],
+        "sizes": ["XS"],
+        "options": []
+    },
+    {
+        "name": "Джинсы | Chino",
+        "description": "Джинсы на завышенной талии | Chino.",
+        "category": "Джинсы",
+        "brand": "Chino",
+        "vendorCode": 32946,
+        "price": {
+            "current": 2799,
+            "new": 2099
+        },
+        "isInStock": true,
+        "quantity": 12,
+        "rating": 3,
+        "status": "sale",
+        "colors": [
+            {
+                "name": "Голубой",
+                "value": "#42AAFF"
+            }
+        ],
+        "sizes": ["XS"],
+        "options": []
+    },
+    {
+        "name": "Джинсы | ТВОЕ",
+        "description": "Джинсы ТВОЕ.",
+        "category": "Джинсы",
+        "brand": "ТВОЕ",
+        "vendorCode": 32947,
+        "price": {
+            "current": 2799,
+            "new": 2699
+        },
+        "isInStock": true,
+        "quantity": 4,
+        "rating": 4,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Синий",
+                "value": "#0000FF"
+            }
+        ],
+        "sizes": ["XS"],
+        "options": []
+    },
+    {
+        "name": "Платье | Chino",
+        "description": "Принтованное платье из вискозы Chino.",
+        "category": "Платье",
+        "brand": "Chino",
+        "vendorCode": 32948,
+        "price": {
+            "current": 2999,
+            "new": 2899
+        },
+        "isInStock": true,
+        "quantity": 7,
+        "rating": 5,
+        "status": "all",
+        "colors": [
+            {
+                "name": "Коричневый",
+                "value": "#964B00"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "options": []
+    },
+    {
+        "name": "Платье | Bronks",
+        "description": "Принтованное платье А-силуэта | Bronks.",
+        "category": "Платье",
+        "brand": "Bronks",
+        "vendorCode": 32949,
+        "price": {
+            "current": 2099
+        },
+        "isInStock": true,
+        "quantity": 15,
+        "rating": 5,
+        "status": "new",
+        "colors": [
+            {
+                "name": "Ярко-синий",
+                "value": "#007CAD"
+            },
+            {
+                "name": "Бежевый",
+                "value": "#F5F5DC"
+            },
+            {
+                "name": "Красный",
+                "value": "#FF0000"
+            }
+        ],
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "options": []
+    }
+]
