@@ -12,7 +12,7 @@
         "isInStock": false,
         "quantity": 0,
         "rating": 2,
-        "status": "all",
+        "status": "sale",
         "colors": [
             {
                 "name": "Белый",
@@ -45,8 +45,7 @@
         "brand": "Befree",
         "vendorCode": 32901,
         "price": {
-            "current": 2799,
-            "new": 2599
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 6,
@@ -91,8 +90,7 @@
         "brand": "Befree",
         "vendorCode": 32903,
         "price": {
-            "current": 2799,
-            "new": 1999
+            "current": 2799
         },
         "isInStock": false,
         "quantity": 0,
@@ -118,8 +116,7 @@
         "brand": "Befree",
         "vendorCode": 32904,
         "price": {
-            "current": 5799,
-            "new": 4599
+            "current": 5799
         },
         "isInStock": true,
         "quantity": 10,
@@ -145,8 +142,7 @@
         "brand": "Befree",
         "vendorCode": 32905,
         "price": {
-            "current": 2799,
-            "new": 1799
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 3,
@@ -168,8 +164,7 @@
         "brand": "Lime",
         "vendorCode": 32906,
         "price": {
-            "current": 3899,
-            "new": 3599
+            "current": 3899
         },
         "isInStock": false,
         "quantity": 0,
@@ -191,8 +186,7 @@
         "brand": "Lime",
         "vendorCode": 32907,
         "price": {
-            "current": 5599,
-            "new": 4999
+            "current": 5599
         },
         "isInStock": true,
         "quantity": 4,
@@ -214,13 +208,12 @@
         "brand": "Lime",
         "vendorCode": 32908,
         "price": {
-            "current": 2799,
-            "new": 2599
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 13,
         "rating": 5,
-        "status": "all",
+        "status": "new",
         "colors": [
             {
                 "name": "Мультиколор",
@@ -237,8 +230,7 @@
         "brand": "Lime",
         "vendorCode": 32909,
         "price": {
-            "current": 6799,
-            "new": 5999
+            "current": 6799
         },
         "isInStock": true,
         "quantity": 5,
@@ -303,8 +295,7 @@
         "brand": "ТВОЕ",
         "vendorCode": 32911,
         "price": {
-            "current": 999,
-            "new": 899
+            "current": 999
         },
         "isInStock": true,
         "quantity": 7,
@@ -538,13 +529,12 @@
         "brand": "Odji",
         "vendorCode": 32917,
         "price": {
-            "current": 2799,
-            "new": 1999
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 1,
         "rating": 5,
-        "status": "all",
+        "status": "new",
         "colors": [
             {
                 "name": "Синий",
@@ -569,8 +559,7 @@
         "brand": "ТВОЕ",
         "vendorCode": 32918,
         "price": {
-            "current": 1799,
-            "new": 1499
+            "current": 1799
         },
         "isInStock": false,
         "quantity": 0,
@@ -614,7 +603,7 @@
         "isInStock": false,
         "quantity": 0,
         "rating": 5,
-        "status": "all",
+        "status": "sale",
         "colors": [
             {
                 "name": "Бордовый",
@@ -647,8 +636,7 @@
         "brand": "Max Extreme",
         "vendorCode": 32920,
         "price": {
-            "current": 1799,
-            "new": 1700
+            "current": 1799
         },
         "isInStock": true,
         "quantity": 1,
@@ -670,8 +658,7 @@
         "brand": "Best MultiBrand",
         "vendorCode": 32921,
         "price": {
-            "current": 1799,
-            "new": 1399
+            "current": 1799
         },
         "isInStock": true,
         "quantity": 15,
@@ -703,7 +690,7 @@
         "isInStock": true,
         "quantity": 8,
         "rating": 1,
-        "status": "all",
+        "status": "sale",
         "colors": [
             {
                 "name": "Светло-серый",
@@ -732,8 +719,7 @@
         "brand": "Turon",
         "vendorCode": 32923,
         "price": {
-            "current": 2099,
-            "new": 1899
+            "current": 2099
         },
         "isInStock": true,
         "quantity": 2,
@@ -763,8 +749,7 @@
         "brand": "Chino",
         "vendorCode": 32924,
         "price": {
-            "current": 1799,
-            "new": 1599
+            "current": 1799
         },
         "isInStock": false,
         "quantity": 0,
@@ -794,8 +779,7 @@
         "brand": "Chino",
         "vendorCode": 32925,
         "price": {
-            "current": 1999,
-            "new": 1799
+            "current": 1999
         },
         "isInStock": true,
         "quantity": 9,
@@ -825,8 +809,7 @@
         "brand": "Chino",
         "vendorCode": 32926,
         "price": {
-            "current": 1799,
-            "new": 1299
+            "current": 1799
         },
         "isInStock": true,
         "quantity": 11,
@@ -852,8 +835,7 @@
         "brand": "US cotton",
         "vendorCode": 32927,
         "price": {
-            "current": 3799,
-            "new": 3299
+            "current": 3799
         },
         "isInStock": true,
         "quantity": 4,
@@ -925,7 +907,7 @@
         "isInStock": false,
         "quantity": 0,
         "rating": 3,
-        "status": "all",
+        "status": "sale",
         "colors": [
             {
                 "name": "Синий",
@@ -942,8 +924,7 @@
         "brand": "Odji",
         "vendorCode": 32931,
         "price": {
-            "current": 2799,
-            "new": 2299
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 2,
@@ -996,8 +977,7 @@
         "brand": "Bronks",
         "vendorCode": 32933,
         "price": {
-            "current": 999,
-            "new": 799
+            "current": 999
         },
         "isInStock": true,
         "quantity": 8,
@@ -1029,7 +1009,7 @@
         "isInStock": true,
         "quantity": 5,
         "rating": 4,
-        "status": "all",
+        "status": "sale",
         "colors": [
             {
                 "name": "Черный",
@@ -1089,8 +1069,7 @@
         "brand": "Turon",
         "vendorCode": 32936,
         "price": {
-            "current": 6799,
-            "new": 4999
+            "current": 6799
         },
         "isInStock": false,
         "quantity": 0,
@@ -1112,8 +1091,7 @@
         "brand": "Lime",
         "vendorCode": 32937,
         "price": {
-            "current": 3799,
-            "new": 3499
+            "current": 3799
         },
         "isInStock": true,
         "quantity": 4,
@@ -1135,8 +1113,7 @@
         "brand": "ТВОЕ",
         "vendorCode": 32938,
         "price": {
-            "current": 11799,
-            "new": 9999
+            "current": 11799
         },
         "isInStock": true,
         "quantity": 11,
@@ -1158,8 +1135,7 @@
         "brand": "Lime",
         "vendorCode": 32939,
         "price": {
-            "current": 5799,
-            "new": 4999
+            "current": 5799
         },
         "isInStock": true,
         "quantity": 8,
@@ -1181,8 +1157,7 @@
         "brand": "Bronks",
         "vendorCode": 32940,
         "price": {
-            "current": 7799,
-            "new": 6999
+            "current": 7799
         },
         "isInStock": true,
         "quantity": 1,
@@ -1204,8 +1179,7 @@
         "brand": "Bronks",
         "vendorCode": 32941,
         "price": {
-            "current": 3799,
-            "new": 2299
+            "current": 3799
         },
         "isInStock": true,
         "quantity": 13,
@@ -1227,8 +1201,7 @@
         "brand": "Odji",
         "vendorCode": 32942,
         "price": {
-            "current": 2799,
-            "new": 1999
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 3,
@@ -1254,8 +1227,7 @@
         "brand": "Chino",
         "vendorCode": 32943,
         "price": {
-            "current": 3799,
-            "new": 3499
+            "current": 3799
         },
         "isInStock": false,
         "quantity": 0,
@@ -1277,8 +1249,7 @@
         "brand": "Chino",
         "vendorCode": 32944,
         "price": {
-            "current": 3799,
-            "new": 2999
+            "current": 3799
         },
         "isInStock": true,
         "quantity": 7,
@@ -1304,8 +1275,7 @@
         "brand": "Chino",
         "vendorCode": 32945,
         "price": {
-            "current": 2799,
-            "new": 2499
+            "current": 2799
         },
         "isInStock": false,
         "quantity": 0,
@@ -1350,13 +1320,12 @@
         "brand": "ТВОЕ",
         "vendorCode": 32947,
         "price": {
-            "current": 2799,
-            "new": 2699
+            "current": 2799
         },
         "isInStock": true,
         "quantity": 4,
         "rating": 4,
-        "status": "all",
+        "status": "new",
         "colors": [
             {
                 "name": "Синий",
@@ -1373,8 +1342,7 @@
         "brand": "Chino",
         "vendorCode": 32948,
         "price": {
-            "current": 2999,
-            "new": 2899
+            "current": 2999
         },
         "isInStock": true,
         "quantity": 7,
