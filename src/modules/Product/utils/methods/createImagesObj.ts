@@ -8,7 +8,7 @@ const { baseDir } = fileStorageSettings;
 const defaultImgPath: string = `${HOST}/${baseDir}/default/defaultImage.webp`;
 
 export const createImagesObj = (files: Files): IImages => {
-    if (!files || !Array.isArray(files)) return { preview: '' };
+    if (!files || !Array.isArray(files)) return { preview: defaultImgPath };
 
     const images: string[] = files.map(
         (el) => `${HOST}/${path.posix.join(...el.path.split(path.sep))}`
