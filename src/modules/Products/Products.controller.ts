@@ -1,7 +1,8 @@
 import { Response } from 'express';
+import { RequestQuery } from '../../types/Request.js';
 import { IResponse } from '../../types/Response.js';
 import { DBModel } from '../../types/Product';
-import { IQuery, RequestQuery } from './Products.types';
+import { IQuery } from './Products.types';
 import Products from './Products';
 import { createErrorObj, createResponseObj } from '../../utils/methods';
 

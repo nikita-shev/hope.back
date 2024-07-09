@@ -1,6 +1,6 @@
 import { NextFunction, Response } from 'express';
 import queryString, { ParsedQuery } from 'query-string';
-import { RequestQuery } from '../Products.types.js';
+import { RequestQuery } from '../../../types/Request.js';
 
 export const convertQueryParams = (
     req: RequestQuery<ParsedQuery<string | number | boolean>>,
