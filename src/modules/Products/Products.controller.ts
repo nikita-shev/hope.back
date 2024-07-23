@@ -11,9 +11,7 @@ class ProductsController {
         try {
             const products: DBModel[] = await Products.findProducts(req.query);
 
-            res.status(200).json(
-                createResponseObj(!!products.length && products, 'Products not found.')
-            );
+            res.status(200).json(createResponseObj(products, 'Products not found.'));
         } catch (err) {
             res.status(200).json(createErrorObj());
         }
