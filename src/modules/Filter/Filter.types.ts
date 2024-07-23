@@ -1,1 +1,8 @@
-export type TKeys = 'category' | 'brand' | 'colors' | 'sizes';
+export type FilterType =
+    | 'category'
+    | 'brand'
+    | 'colors'
+    | 'sizes'
+    | 'isInStock'
+    | 'price'
+    | 'status';

@@ -1,7 +1,7 @@
 import { DBModel } from '../../../types/Product.js';
-import { TKeys } from '../Filter.types.js';
+import { FilterType } from '../Filter.types.js';
 
-export const createFilterValues = (key: TKeys, data: DBModel[]): string[] => {
+export const createFilterValues = (key: FilterType, data: DBModel[]): string[] => {
     let filterValues: string[] = [];
 
     data.forEach((el) => {
@@ -12,7 +12,7 @@ export const createFilterValues = (key: TKeys, data: DBModel[]): string[] => {
                 value.map((item) => (typeof item === 'object' ? item.name : item))
             );
         } else {
-            filterValues.push(value);
+            filterValues.push(`${value}`);
         }
     });
 

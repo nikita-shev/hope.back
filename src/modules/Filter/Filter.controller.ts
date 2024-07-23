@@ -1,13 +1,13 @@
 import { Response } from 'express';
 import { RequestQuery } from '../../types/Request.js';
 import { IResponse } from '../../types/Response.js';
-import { TKeys } from './Filter.types.js';
+import { FilterType } from './Filter.types.js';
 import { createErrorObj, createResponseObj } from '../../utils/methods';
 import Filter from './Filter.js';
 
 class FilterController {
     async getFilterValues(
-        req: RequestQuery<{ type: TKeys }>,
+        req: RequestQuery<{ type: FilterType }>,
         res: Response<IResponse>
     ): Promise<void> {
         try {
