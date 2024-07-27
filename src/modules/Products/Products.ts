@@ -1,22 +1,25 @@
 import { getCollection } from '../../db/index.js';
 import { DBModel, IProduct } from '../../types/Product.js';
-import { IQuery } from './Products.types.js';
+import { IProducts, IQuery } from './Products.types.js';
 import { createSearchParams, ISearchParams } from './utils';
 
 const collection = getCollection<IProduct>();
 
 class Products {
-    async findProducts({ page = 1, limit = 15, ...params }: IQuery): Promise<DBModel[]> {
+    async findProducts({ page = 1, limit = 15, ...params }: IQuery): Promise<IProducts> {
         const skip: number = (page - 1) * limit;
         const searchParams: ISearchParams = Object.keys(params).length
             ? createSearchParams(params)
             : {};
 
-        return collection
+        const products: DBModel[] = await collection
             .find(searchParams, { projection: { _id: 0 } })
             .skip(skip)
             .limit(limit)
             .toArray();
+        const productsCount: number = await collection.countDocuments(searchParams);
+
+        return { products, productsCount };
     }
 }
 
