@@ -4,6 +4,7 @@ import { DBModel } from '../../types/Product.js';
 export interface IQuery {
     limit: number;
     page: number;
+    order: number;
 
     [key: string]: string | number | boolean;
 }
