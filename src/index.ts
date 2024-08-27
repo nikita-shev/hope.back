@@ -3,8 +3,14 @@ import { connectDB } from './db/index.js';
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, async (): Promise<void> => {
-    await connectDB();
+async function startApp(): Promise<void> {
+    try {
+        await connectDB();
 
-    console.log(`Server running on port ${PORT}`);
-});
+        app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+startApp();
